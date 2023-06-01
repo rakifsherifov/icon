@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(163, 169, 175);
+}
+#general{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* one start */
+
+.container{
+    
+    max-width: 1000px;
+    margin: 50px auto;
+    
+}
+
+.social ul li{
+    display: inline;
+}
+
+.social ul li a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 13px;
+    background-color: #fff;
+    position: relative;
+}
+.social ul li a i{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.social ul li .first{
+    color: rgb(41, 41, 87);
+}
+.social ul li .second{
+    color: rgb(0, 157, 255);
+}
+.social ul li .third{
+ color: rgb(205, 96, 96);
+}
+.social ul li .fourth{
+ color: red;
+}
+.social ul li .fifth{
+    color: aqua;
+}
+/* one end */
+
+
+/* two start */
+
+.container2{
+    
+    max-width: 1000px;
+    margin: 50px auto;
+    
+}
+#two{
+    margin-top: 100px;
+}
+
+.social2 ul li{
+    display: inline;
+}
+
+.social2 ul li a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-style: solid ;
+    background-color: #fff;
+    position: relative;
+}
+
+
+.social2 ul li a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.social2 ul li .first2{
+    color: rgb(41, 41, 87);
+}
+.social2 ul li .second2{
+    color: rgb(0, 157, 255);
+}
+.social2 ul li .third2{
+ color: rgb(205, 96, 96);
+}
+.social2 ul li .fourth2{
+ color: red;
+}
+.social2 ul li .fifth2{
+    color: aqua;
+}
+
+
+
+
+/* two end */
+
+
